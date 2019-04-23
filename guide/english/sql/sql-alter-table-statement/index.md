@@ -39,7 +39,7 @@ Result :
 | studentID          | NULL                 | NO           | int(11)     | PRI        |
 | FullName           | NULL                 | YES          | varchar(90) |            |
 | studentIO          | NULL                 | YES          | int(3)      |            |
-| sat_score          | NULL                 | YEs          | int(4)      |            |
+| sat_score          | NULL                 | YES          | int(4)      |            |
 | timeStampA         | CURRENT TIMESTAMP    | NO           | timestamp   |            |
 | timeStampB         | 0000-00-00 00:00:00  | NO           | timestamp   |            |
 +--------------------+----------------------+--------------+-------------+------------+
