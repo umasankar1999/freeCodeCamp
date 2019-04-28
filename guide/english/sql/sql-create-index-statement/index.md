@@ -31,7 +31,7 @@ For reference, here is the current definition of the student table.
 | FullName           | NULL                 | YES          | varchar(90)   |            |
 | sat_score          | NULL                 | YEs          | int(4)        |            |
 | recordUpdated      | CURRENT TIMESTAMP    | NO           | timestamp     |            |
-| recordCreated      | CURRENT TIMESTAMP    | NO           | timestamp     |            |
+| recordCreated      | 0000-00-00 00:00:00  | NO           | timestamp     |            |
 | programOfStudy     | NULL                 | YES          | varchar(200)  |            |
 +--------------------+----------------------+--------------+---------------+------------+
 ```
@@ -51,7 +51,7 @@ For reference, here is the current definition of the student table.
   | FullName           | NULL                 | YES          | varchar(90)   |            |
   | sat_score          | NULL                 | YEs          | int(4)        |            |
   | recordUpdated      | CURRENT TIMESTAMP    | NO           | timestamp     |            |
-  | recordCreated      | CURRENT TIMESTAMP    | NO           | timestamp     |            |
+  | recordCreated      | 0000-00-00 00:00:00  | NO           | timestamp     |            |
   | programOfStudy     | NULL                 | YES          | varchar(200)  | MUL        |
   +--------------------+----------------------+--------------+---------------+------------+
   ```
