@@ -55,7 +55,7 @@ create database fCC_alterTableGuide;
   studentId int(11) not null primary key , 
   FullName varchar(90),
   sat_score int(4),
-  ts1 datetime,
+  ts1 timestamp,
   ts2 timestamp default current_timestamp,
   programOfStudy varchar(200)
   );
